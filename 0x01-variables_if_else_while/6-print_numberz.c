@@ -9,12 +9,19 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) {
-    // Use putchar to print single digit numbers from 0 to 9
-    for (int i = 0; i < 10; ++i) {
-        putchar(i + '0'); // Convert integer to character
-    }
-    putchar('\n'); // Print a newline character
-    return 0;
+int main(void)
+{
+    putchar('0' + 0);
+    putchar('0' + 1);
+    putchar('0' + 2);
+    putchar('0' + 3);
+    putchar('0' + 4);
+    putchar('0' + 5);
+    putchar('0' + 6);
+    putchar('0' + 7);
+    putchar('0' + 8);
+    putchar('0' + 9);
+    putchar('\n');
+    return (0);
 }
 
