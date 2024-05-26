@@ -9,10 +9,10 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-    putchar(48); // ASCII value for '0'
-    putchar(10); // ASCII value for '\n'
+    putchar(48); /* ASCII value for '0' */
+    putchar(10); /* ASCII value for '\n' */
     return (0);
 }
-
