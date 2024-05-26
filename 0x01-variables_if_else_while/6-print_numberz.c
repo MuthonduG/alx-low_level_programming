@@ -12,7 +12,12 @@
 
 int main(void)
 {
-    putchar(48); 
-    putchar(10); 
+    int num;
+
+    for (num = 48; num <= 57; num++)
+    {
+        putchar(num);
+    }
+    putchar(10); // newline
     return (0);
 }
